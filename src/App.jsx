@@ -138,7 +138,7 @@ export default function App() {
         <section id="hero" className="hero-section">
           <div className="status-badge">
             <span className="status-dot"></span>
-            Disponibilidad completa para nuevas oportunidades OpenToWork
+            Disponibilidad completa para nuevas oportunidades · #OpenToWork
           </div>
           <h1 className="hero-title">
             Transformo ideas en soluciones web funcionales.
@@ -326,11 +326,7 @@ export default function App() {
               </a>
             </div>
 
-            <div className="contact-footer-action">
-              <a href="mailto:p.jimenezbe@gmail.com" className="btn btn-primary contact-cta-btn">
-                Escribir un correo electrónico
-              </a>
-            </div>
+
           </div>
         </section>
       </main>

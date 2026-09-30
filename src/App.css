@@ -834,16 +834,6 @@ body {
   text-decoration: underline;
 }
 
-.contact-footer-action {
-  display: flex;
-  justify-content: flex-start;
-  padding-top: 8px;
-}
-
-.contact-cta-btn {
-  font-size: 0.95rem;
-  padding: 12px 24px;
-}
 
 /* FOOTER */
 .site-footer {
