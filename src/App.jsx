@@ -51,7 +51,7 @@ export default function App() {
       category: 'Full Stack Web App',
       status: 'finalizado',
       statusLabel: 'Finalizado',
-      image: '', // Para añadir foto: copia la imagen a la carpeta public/ y pon aquí la ruta (ej: '/playgo.jpg')
+      image: '/playgo.png',
       description:
         'Plataforma interactiva de juegos educativos y de entretenimiento adaptada a múltiples edades. Cuenta con perfiles de acceso dinámicos, administración de contenidos, rankings en tiempo real y soporte técnico integrado.',
       highlights: [
@@ -69,7 +69,7 @@ export default function App() {
       category: 'Web App & Panel de Gestión',
       status: 'finalizado',
       statusLabel: 'Finalizado',
-      image: '', // Para añadir foto: copia la imagen a la carpeta public/ y pon aquí la ruta (ej: '/inmobiliaria.jpg')
+      image: '/inmobiliaria.jpg',
       description:
         'Aplicación web integral bajo el patrón Modelo-Vista-Controlador (MVC). Cuenta con buscador público de inmuebles, fichas detalladas y un panel privado con permisos y control de acceso diferenciado por roles.',
       highlights: [
@@ -86,7 +86,7 @@ export default function App() {
       category: 'Backend / Programación Python',
       status: 'finalizado',
       statusLabel: 'Finalizado',
-      image: '', // Para añadir foto: copia la imagen a la carpeta public/ y pon aquí la ruta (ej: '/fitlife.jpg')
+      image: '/fitlife.jpg',
       description:
         'Aplicación de consola en Python desarrollada para la simulación y gestión de reservas en un centro deportivo, aplicando conceptos avanzados del paradigma de Programación Orientada a Objetos (POO).',
       highlights: [
@@ -103,7 +103,7 @@ export default function App() {
       category: 'Backend & Lógica de Negocio',
       status: 'finalizado',
       statusLabel: 'Finalizado',
-      image: '', // Para añadir foto: copia la imagen a la carpeta public/ y pon aquí la ruta (ej: '/reservas.jpg')
+      image: '/reservas.jpg',
       description:
         'Aplicación de escritorio orientada a objetos para la gestión transaccional de recursos, reservas y usuarios, con control de excepciones e integridad de datos.',
       highlights: [
