@@ -635,6 +635,21 @@ body {
   text-decoration: none;
 }
 
+.project-private-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-light);
+  background-color: var(--bg-surface-secondary);
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 1px dashed var(--border-color);
+  letter-spacing: 0.3px;
+}
+
 /* STACK TÉCNICO */
 .stack-grid {
   display: grid;

@@ -14,7 +14,7 @@ export default function App() {
   const projects = [
     {
       title: 'Invitación de Boda Interactiva & Sistema de Confirmación',
-      category: 'Proyecto Profesional',
+      category: 'Proyecto Freelance',
       status: 'real',
       statusLabel: 'Proyecto Real',
       image: '/sello-lacre.png', // Sello de lacre con iniciales (puedes cambiarlo por otra imagen si lo deseas)
@@ -28,6 +28,23 @@ export default function App() {
       challenge: 'Garantizar la protección de datos de los invitados y manejar de forma segura las confirmaciones concurrentes de forma sencilla para el usuario final.',
       tags: ['PHP', 'MySQL', 'PDF Generation', 'Responsive Design'],
       githubLink: 'https://github.com/tu-usuario/invitacion-boda'
+    },
+    {
+      title: 'Rutapeo — Progressive Web App',
+      category: 'Proyecto Freelance',
+      status: 'real',
+      statusLabel: 'Proyecto Real',
+      image: '/rutapeo.jpg',
+      description:
+        'Aplicación web progresiva (PWA) full-stack para la creación, exploración y planificación de rutas gastronómicas y de tapeo. Permite diseñar itinerarios personalizados, geolocalizar bares en mapas interactivos y compartir experiencias culinarias con una galería fotográfica integrada.',
+      highlights: [
+        'Arquitectura frontend SPA desarrollada con JavaScript modular y Bootstrap, conectada a una API REST backend en PHP.',
+        'Diseño y modelado de base de datos relacional MySQL estructurada en más de 15 tablas para rutas, locales, paradas, favoritos y perfiles.',
+        'Integración de mapas interactivos con Leaflet.js y sistema de geolocalización para el descubrimiento de locales y rutas cercanas.',
+        'Implementación como Progressive Web App (PWA) con Service Workers para disponibilidad offline y sistema de autenticación multi-rol.'
+      ],
+      challenge: 'Garantizar la fluidez de interacción con mapas interactivos y geolocalización con múltiples marcadores concurrentes, optimizando la sincronización offline en dispositivos móviles.',
+      tags: ['PHP', 'MySQL', 'JavaScript', 'Leaflet.js', 'Bootstrap', 'PWA', 'REST API']
     },
     {
       title: 'PlayGo — Proyecto Final DAW',
@@ -198,13 +215,24 @@ export default function App() {
                       ))}
                     </div>
                     <div className="project-links">
-                      <a href={project.githubLink} target="_blank" rel="noreferrer" className="link-arrow">
-                        GitHub <span>↗</span>
-                      </a>
+                      {project.githubLink && (
+                        <a href={project.githubLink} target="_blank" rel="noreferrer" className="link-arrow">
+                          GitHub <span>↗</span>
+                        </a>
+                      )}
                       {project.demoLink && (
                         <a href={project.demoLink} target="_blank" rel="noreferrer" className="link-arrow">
                           Demo <span>↗</span>
                         </a>
+                      )}
+                      {!project.githubLink && !project.demoLink && (
+                        <span className="project-private-badge">
+                          <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" height="13" width="13" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                          </svg>
+                          Código privado
+                        </span>
                       )}
                     </div>
                   </div>
