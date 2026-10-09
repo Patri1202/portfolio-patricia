@@ -272,7 +272,7 @@ export default function App() {
 
           <div className="about-layout">
             <div className="about-photo-wrapper">
-              <img src="/foto-patricia.jpg" alt="Patricia Jiménez" className="about-photo" />
+              <img src="/Patri-perfil.jpg" alt="Patricia Jiménez" className="about-photo" />
             </div>
             <div className="about-content">
               <div className="about-text">
