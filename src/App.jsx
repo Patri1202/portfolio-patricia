@@ -47,10 +47,27 @@ export default function App() {
       tags: ['PHP', 'MySQL', 'JavaScript', 'Leaflet.js', 'Bootstrap', 'PWA', 'REST API']
     },
     {
+      title: 'MenusPlanner — Planificador de Menús & Recetas',
+      category: 'Proyecto Freelance',
+      status: 'real',
+      statusLabel: 'Proyecto Real',
+      image: '/fondo_menusplanner.jpg',
+      description:
+        'Aplicación web full-stack a medida para la planificación y organización de menús semanales, recetario integrado, control de stock de congelador y generación automática de la lista de la compra.',
+      highlights: [
+        'Desarrollo del planificador semanal interactivo con distribución ágil de platos por días y tomas (comida y cena) con navegación temporal.',
+        'Módulo de recetario con gestión de ingredientes, elaboración y categorización de platos.',
+        'Control de stock en congelador y generación consolidada e inteligente de la lista de la compra según el menú planificado.',
+        'Diseño limpio, minimalista y responsivo pensado para facilitar la organización doméstica diaria.'
+      ],
+      challenge: 'Estructurar una interfaz ágil e intuitiva para la asignación y modificación de platos diarios, sincronizando en tiempo real el inventario del congelador y los artículos pendientes en la lista de la compra.',
+      tags: ['PHP', 'MySQL', 'JavaScript', 'CSS3', 'Responsive Design', 'REST API']
+    },
+    {
       title: 'PlayGo — Proyecto Final DAW',
       category: 'Full Stack Web App',
-      status: 'finalizado',
-      statusLabel: 'Finalizado',
+      status: 'real',
+      statusLabel: 'Proyecto Real',
       image: '/playgo.png',
       description:
         'Plataforma interactiva de juegos educativos y de entretenimiento adaptada a múltiples edades. Cuenta con perfiles de acceso dinámicos, administración de contenidos, rankings en tiempo real y soporte técnico integrado.',
@@ -83,37 +100,39 @@ export default function App() {
     },
     {
       title: 'FitLife Center — Sistema de Gestión (Python)',
-      category: 'Backend / Programación Python',
+      category: 'CLI & Backend Python',
       status: 'finalizado',
       statusLabel: 'Finalizado',
-      image: '/fitlife.jpg',
+      image: null,
       description:
-        'Aplicación de consola en Python desarrollada para la simulación y gestión de reservas en un centro deportivo, aplicando conceptos avanzados del paradigma de Programación Orientada a Objetos (POO).',
+        'Aplicación de consola en Python desarrollada para la simulación y gestión de reservas en un centro deportivo, ejecutada en terminal y aplicando conceptos avanzados de Programación Orientada a Objetos (POO).',
       highlights: [
+        'Ejecución en entorno de terminal interactivo con menús navegables por consola y validación rigurosa de entradas.',
         'Implementación de Abstracción, Herencia y Polimorfismo mediante clases base abstractas (abc.ABC) y cálculo dinámico de tarifas.',
         'Robustez técnica con gestión de excepciones personalizadas (SinPlazasError) para controlar la capacidad máxima de reservas en tiempo real.',
         'Asociación bidireccional y actualización dinámica del estado de la actividad y la ficha del cliente en memoria.'
       ],
       challenge: 'Modelar una lógica relacional robusta en memoria y controlar condiciones de carrera simuladas al gestionar cupos concurrentes.',
-      tags: ['Python', 'POO', 'Excepciones', 'Clean Code'],
+      tags: ['Python', 'POO', 'CLI / Terminal', 'Excepciones', 'Clean Code'],
       githubLink: 'https://github.com/tu-usuario/fitlife-python'
     },
     {
-      title: 'Sistema de Gestión & Reservas',
-      category: 'Backend & Lógica de Negocio',
+      title: 'El Bazar de JSON — Catálogo SPA & Carrito',
+      category: 'Single Page Application / DWEC',
       status: 'finalizado',
       statusLabel: 'Finalizado',
-      image: '/reservas.jpg',
+      image: '/bazar.jpg',
       description:
-        'Aplicación de escritorio orientada a objetos para la gestión transaccional de recursos, reservas y usuarios, con control de excepciones e integridad de datos.',
+        'Aplicación web interactiva tipo Single Page Application (SPA) para la exploración de un catálogo de comercio electrónico. Consume datos dinámicos en formato JSON vía Fetch API (async/await), con filtros combinados en tiempo real y gestión completa del carrito de compras.',
       highlights: [
-        'Desarrollo de la lógica de negocio robusta en Java implementando conceptos avanzados de Programación Orientada a Objetos (POO).',
-        'Conexión con base de datos SQL para operaciones CRUD completas y control estricto de excepciones transaccionales.',
-        'Modelado relacional robusto con llaves foráneas y disparadores para asegurar la coherencia de datos.'
+        'Carga asíncrona del catálogo con Fetch API (async/await) y renderizado optimizado en el DOM mediante DocumentFragment para alto rendimiento.',
+        'Motor de filtros combinados en tiempo real: precio mínimo numérico, filtro por categorías y búsqueda por marca insensible a mayúsculas.',
+        'Gestión reactiva del carrito de compras con control dinámico de unidades, cálculo automático de subtotales, coste total acumulado y eliminación al llegar a cero.',
+        'Interfaz interactiva enriquecida con micro-animaciones en Animate.css, alertas estéticas con SweetAlert2 y maquetación con CSS Grid y Flexbox.'
       ],
-      challenge: 'Garantizar la consistencia transaccional y la prevención de sobre-reservas concurrentes en la base de datos relacional.',
-      tags: ['Java', 'SQL', 'Git', 'POO'],
-      githubLink: 'https://github.com/tu-usuario/gestion-reservas'
+      challenge: 'Garantizar una manipulación eficiente del DOM sin bloqueos de renderizado mediante DocumentFragment y sincronizar de forma reactiva el estado del carrito en memoria.',
+      tags: ['JavaScript (ES6+)', 'Fetch API', 'JSON', 'CSS Grid & Flexbox', 'SweetAlert2', 'Animate.css'],
+      githubLink: 'https://github.com/tu-usuario/bazar_JSON'
     }
   ];
 
