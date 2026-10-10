@@ -61,7 +61,7 @@ export default function App() {
         'Diseño limpio, minimalista y responsivo pensado para facilitar la organización doméstica diaria.'
       ],
       challenge: 'Estructurar una interfaz ágil e intuitiva para la asignación y modificación de platos diarios, sincronizando en tiempo real el inventario del congelador y los artículos pendientes en la lista de la compra.',
-      tags: ['PHP', 'MySQL', 'JavaScript', 'CSS3', 'Responsive Design', 'REST API']
+      tags: ['PHP', 'MySQL', 'JavaScript', 'Tailwind CSS', 'Responsive Design']
     },
     {
       title: 'PlayGo — Proyecto Final DAW',
