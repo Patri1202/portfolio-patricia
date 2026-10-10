@@ -146,7 +146,6 @@ export default function App() {
             <a href="#hero" className="brand-logo">
               Patricia Jiménez<span className="brand-dot">.</span>
             </a>
-            <span className="brand-subtitle">Full Stack Developer</span>
           </div>
           <nav className="nav-menu">
             <a href="#proyectos">Proyectos</a>
@@ -180,7 +179,7 @@ export default function App() {
             Transformo ideas en soluciones web funcionales.
           </h1>
           <p className="hero-description">
-            Graduada en <strong>Desarrollo de Aplicaciones Web (DAW)</strong> y <strong>Maestra de Educación Infantil y Primaria</strong>. Combino mi formación técnica en desarrollo Full Stack (PHP, Java, JavaScript, MySQL) con las habilidades clave de mi experiencia docente: comunicación efectiva, empatía, organización meticulosa y resolución ágil de problemas.
+            Graduada en <strong>Desarrollo de Aplicaciones Web (DAW)</strong> con conocimientos en front-end y back-end. Tengo poca experiencia en el sector, pero con muchas ganas por aprender y seguir creciendo en este sector. Aporto atención al detalle, organización y ganas de seguir creciendo en proyectos donde la tecnología resuelva problemas del día a día.
           </p>
           <div className="hero-actions">
             <a href="#proyectos" className="btn btn-primary">Ver proyectos destacados</a>
@@ -191,7 +190,6 @@ export default function App() {
         {/* PROYECTOS */}
         <section id="proyectos" className="content-section">
           <div className="section-header">
-            <span className="section-label">01 / TRABAJO SELECCIONADO</span>
             <h2 className="section-title">Proyectos destacados</h2>
           </div>
 
@@ -264,7 +262,6 @@ export default function App() {
         {/* STACK */}
         <section id="stack" className="content-section">
           <div className="section-header">
-            <span className="section-label">02 / COMPETENCIAS TÉCNICAS</span>
             <h2 className="section-title">Tecnologías & Herramientas</h2>
           </div>
 
@@ -285,7 +282,6 @@ export default function App() {
         {/* SOBRE MÍ */}
         <section id="sobre-mi" className="content-section">
           <div className="section-header">
-            <span className="section-label">03 / TRAYECTORIA</span>
             <h2 className="section-title">Perfil & Experiencia</h2>
           </div>
 
@@ -296,10 +292,13 @@ export default function App() {
             <div className="about-content">
               <div className="about-text">
                 <p>
-                  Mi transición de <strong>Maestra de Educación Infantil y Primaria</strong> al desarrollo de software nace de mi pasión por la resolución de problemas y la estructuración de ideas. Aporto al desarrollo de aplicaciones la empatía, la paciencia y la comunicación clara necesarias para entender las necesidades del usuario y colaborar eficazmente en equipos multidisciplinares.
+                  Soy <strong>Técnica Superior en Desarrollo de Aplicaciones Web (DAW)</strong>. Me gusta aprender de forma práctica, entender desde cero cómo funcionan las cosas y crear soluciones tecnológicas que resuelvan problemas de la vida cotidiana.
                 </p>
                 <p>
-                  Concibo la programación de la misma forma que la enseñanza: como un proceso estructurado, metódico y orientado a facilitar la vida de las personas. Mi objetivo es aportar código limpio, buenas prácticas y una actitud de aprendizaje continuo en cada proyecto.
+                  En mi día a día trabajo tanto con front-end como con back-end, apoyándome en buenas prácticas, Git y herramientas como la Inteligencia Artificial para optimizar mis flujos de trabajo.
+                </p>
+                <p>
+                  Mi trayectoria anterior en educación y gestión de equipos forma una parte esencial de mi manera de programar: organización, comunicación clara, resolución de problemas y mucha empatía para entender las necesidades del usuario. Tengo poca experiencia en el sector, pero intento mejorar cada día llevando ideas desde cero hasta aplicaciones funcionales.
                 </p>
               </div>
               <div className="about-highlights">
@@ -319,7 +318,6 @@ export default function App() {
         {/* CONTACTO */}
         <section id="contacto" className="content-section contact-section">
           <div className="section-header">
-            <span className="section-label">04 / CONECTAR</span>
             <h2 className="section-title">Contacto</h2>
           </div>
 
